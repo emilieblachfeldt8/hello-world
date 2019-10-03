@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+}
+
+.container {
+  color: black;
+  margin: 5px;
+  padding: 5px;
+  height: 1200px;
+}
+
+h1 {
+  color: black;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+h2 {
+  color: black;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+p {
+  color: black;
+  font-family: serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+.simple {
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  padding: 15px;
+}
+
+.simple a {
+  text-decoration: none;
+  color: black;
+}
+
+.simple nav {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.simple nav a:hover {
+  color: white;
+}
+
+.simple2 {
+  display: flex;
+  font-family: sans-serif;
+  padding: 200px;
+  margin: 40px;
+  justify-content: center;
+}
+
+.kontakt {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin: left;
+  padding: 30px;
+  background-color: white;
+}
+
+.kontakt a {
+  text-decoration: none;
+  color: #B03963;
+  justify-content: space-between;
+}
+
+.kontakt a:hover {
+  color: #404040;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+}
+
+footer a {
+  text-decoration: none;
+  color: #B03963;
+  justify-content: space-between;
+}
+
+footer a:hover {
+  color: #404040;
+}
